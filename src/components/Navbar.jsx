@@ -43,7 +43,7 @@ export default function Navbar() {
     <nav style={navStyle}>
       <div style={{ fontWeight: "bold", fontSize: "2rem" }}>
         <span style={{ color: "rgb(109,67,0)", textShadow: "0 0 10px rgb(109,67,0)" }}>
-          Amelia
+          Aiswarya
         </span>
       </div>
 
@@ -52,8 +52,8 @@ export default function Navbar() {
         <Link to="/" style={linkStyle}>Home</Link>
         <Link to="/about" style={linkStyle}>About</Link>
         <Link to="/skills" style={linkStyle}>Skills</Link>
-        <Link to="/services" style={linkStyle}>Services</Link>
-        <Link to="/blogs" style={linkStyle}>Blogs</Link>
+        {/* <Link to="/services" style={linkStyle}>Services</Link> */}
+        <Link to="/blogs" style={linkStyle}>Projects</Link>
         <Link to="/contact" style={{ ...linkStyle, border: "2px solid rgb(109,67,0)", padding: "5px 15px", borderRadius: "20px" }}>Contact</Link>
       </div>
 

@@ -2,7 +2,14 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import event from "../assets/event.png"
+import Event from "../assets/event.png"
+import Gsap from "../assets/gsap.png"
+import Media from "../assets/media.png"
+import Food from "../assets/foodtopia.png"
+import Estate from "../assets/estate.jpg"
+import Laventra from "../assets/laventra.png"
+import Lablex from "../assets/lablex.png"
+import Gloss from "../assets/gloss.png"
 
 export default function ProjectsPage() {
   useEffect(() => {
@@ -121,7 +128,7 @@ export default function ProjectsPage() {
     {
       title: "Food Delivery Website",
       desc: "Full-stack application allowing users to browse, order food, and track delivery with an admin panel.",
-      img: {event},
+      img: Food,
       tech: ["React", "MongoDB", "Express", "Node.js"],
       live: "https://food-topia-frontend.onrender.com/",
       github: "https://github.com/Aiswarya-commits",
@@ -129,7 +136,7 @@ export default function ProjectsPage() {
     {
       title: "Event Management Website",
       desc: "Responsive platform for booking and managing special events online.",
-      img: "https://via.placeholder.com/400x250?text=Event+Management",
+      img: Event,
       tech: ["HTML", "CSS", "Bootstrap", "JavaScript"],
       live: "https://event-management-alpha-seven.vercel.app/",
       github: "https://github.com/Aiswarya-commits",
@@ -137,15 +144,39 @@ export default function ProjectsPage() {
     {
       title: "Media Player",
       desc: "Web-based media player where users can add, update, and delete music/videos.",
-      img: "https://via.placeholder.com/400x250?text=Media+Player",
+      img: Media,
       tech: ["React", "JavaScript", "Bootstrap"],
       live: "https://media-player-tawny-kappa.vercel.app/",
       github: "https://github.com/Aiswarya-commits",
     },
     {
+      title: "Laventra Event Management",
+      desc: "Event management team website named Laventra which can Book events",
+      img: Laventra,
+      tech: ["React", "JavaScript", "Bootstrap"],
+      live: "https://laventra-event.vercel.app/",
+      github: "https://github.com/Aiswarya-commits",
+    },
+    {
+      title: "Labelex Website",
+      desc: "Label making company website that is about the label making",
+      img: Lablex,
+      tech: ["React", "JavaScript", "Bootstrap"],
+      live: "https://lablex.vercel.app/",
+      github: "https://github.com/Aiswarya-commits",
+    },
+    {
+      title: "GlossEra Website",
+      desc: "a Beauty brand website",
+      img: Gloss,
+      tech: ["React", "JavaScript", "Bootstrap"],
+      live: "https://gloss-era.vercel.app/home",
+      github: "https://github.com/Aiswarya-commits",
+    },
+    {
       title: "GSAP Website",
       desc: "Animated website built with GSAP for smooth scrolling and transitions.",
-      img: "https://via.placeholder.com/400x250?text=GSAP+Website",
+      img: Gsap,
       tech: ["HTML", "CSS", "Bootstrap", "GSAP"],
       live: "https://gsap-website-drab.vercel.app/",
       github: "https://github.com/Aiswarya-commits",
@@ -153,7 +184,7 @@ export default function ProjectsPage() {
     {
       title: "Real Estate Data Analysis",
       desc: "Data science project analyzing and visualizing real estate data.",
-      img: "https://via.placeholder.com/400x250?text=Real+Estate+Analysis",
+      img: Estate,
       tech: ["Python", "SQL", "Power BI"],
       live: "#",
       github: "https://github.com/Aiswarya-commits",

@@ -1,0 +1,76 @@
+.timeline-container {
+    padding: 50px 20px;
+    background: linear-gradient(to right, white, rgb(254,215,173));
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .timeline-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(109,67,0);
+    margin-bottom: 40px;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(109,67,0);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .timeline-item {
+    padding: 20px 30px;
+    position: relative;
+    width: 50%;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(109,67,0,0.3);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .timeline-year {
+    font-weight: bold;
+    color: rgb(109,67,0);
+    font-size: 1.2rem;
+  }
+  
+  .timeline-item.left::after,
+  .timeline-item.right::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: rgb(109,67,0);
+    border-radius: 50%;
+    top: 20px;
+  }
+  
+  .timeline-item.right::after {
+    left: -10px;
+  }
+  

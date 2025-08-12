@@ -68,6 +68,8 @@ export default function SkillsPage() {
     "NumPy",
     "Power BI",
     "Git & GitHub",
+    "Excel",
+    "Typescript"
   ];
 
   return (
